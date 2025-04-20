@@ -124,6 +124,8 @@ try:
 except ZeroDivisionError:
     print("cannot divide by zero")
 
+#=======================================================================================================================    
+
 integer_list = [1, 2, 3]
 heterogeneous_list = ["string", 0.1, True]
 list_of_lists = [integer_list, heterogeneous_list, []]
