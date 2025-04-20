@@ -8,3 +8,4 @@ if __name__ == "__main__":
     num = int(input("Digite um número: "))
     print(f"O quadrado de {num} é {quadrado(num)}")
     print(f"O cubo de {num} é {cubo(num)}")
+    print(f'O quadrado de {num} é {quadrado(num)} e o cubo de {num} é {cubo(num)}')
