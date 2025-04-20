@@ -124,7 +124,7 @@ try:
 except ZeroDivisionError:
     print("cannot divide by zero")
 
-#=======================================================================================================================    
+#=================================================================================================================
 
 integer_list = [1, 2, 3]
 heterogeneous_list = ["string", 0.1, True]
@@ -312,6 +312,8 @@ dd_dict["Joel"]["City"] = "Seattle"     # {"Joel" : {"City": Seattle"}}
 
 dd_pair = defaultdict(lambda: [0, 0])
 dd_pair[2][1] = 1                       # now dd_pair contains {2: [0, 1]}
+
+#============================================================================================================
 
 from collections import Counter
 c = Counter([0, 1, 2, 0])          # c is (basically) {0: 2, 1: 1, 2: 1}
