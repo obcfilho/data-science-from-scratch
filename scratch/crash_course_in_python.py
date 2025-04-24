@@ -325,6 +325,7 @@ word_counts = Counter(document)
 for word, count in word_counts.most_common(10):
     print(word, count)
 
+#============================================================================================================
 primes_below_10 = {2, 3, 5, 7}
 
 s = set()
@@ -357,6 +358,9 @@ assert item_set == {1, 2, 3}
 assert num_distinct_items == 3
 assert distinct_item_list == [1, 2, 3]
 
+#============================================================================================================
+# checkpoint 24/04/2025
+ 
 if 1 > 2:
     message = "if only 1 were greater than two..."
 elif 1 > 3:
