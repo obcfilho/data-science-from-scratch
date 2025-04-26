@@ -358,7 +358,7 @@ assert item_set == {1, 2, 3}
 assert num_distinct_items == 3
 assert distinct_item_list == [1, 2, 3]
 
-#============================================================================================================
+#===============================================================================================
 # checkpoint 24/04/2025
  
 if 1 > 2:
@@ -479,6 +479,9 @@ assert smallest_item([1, 0, -1, 2]) == -1
 def smallest_item(xs):
     assert xs, "empty list has no smallest item"
     return min(xs)
+
+#=========================================================
+# checkpoint 26/04/2025
 
 class CountingClicker:
     """A class can/should have a docstring, just like a function"""
